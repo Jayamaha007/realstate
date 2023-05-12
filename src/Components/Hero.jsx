@@ -3,7 +3,6 @@ import { Container } from "@mui/system";
 import React from "react";
 import Navbar from "./Navbar";
 import RunningMan from "../media/RunningImg.png";
-import heroImg from "../media/hero_illustration.png";
 import CustomButton from "./CustomButton";
 
 const Hero = () => {
@@ -54,8 +53,9 @@ const Hero = () => {
               variant="body2"
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
             >
-              Be the first to get the best real estate deals before they hit the
-              mass market! Hot foreclosure deals with one simple search!
+             Welcome to our fitness page, where we believe that fitness is not just a hobby, but a way of life. Our page is dedicated to providing you with the latest fitness tips, workout routines, and healthy eating ideas that will help you achieve your fitness goals.
+
+
             </Typography>
             <CustomButton
               backgroundColor="#0F1B4C"
