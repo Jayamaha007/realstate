@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import RunningMan from "../media/RunningImg.png";
 import CustomButton from "./CustomButton";
+import "./Hero.css";
 
 const Hero = () => {
   const CustomBox = styled(Box)(({ theme }) => ({
@@ -33,38 +34,49 @@ const Hero = () => {
       <Container>
         <Navbar />
         <CustomBox>
-          <Box sx={{ flex: "1" }}>
-            <Typography
-              variant="body2"
-              sx={{
-                fontSize: "18px",
-                color: "#687690",
-                fontWeight: "500",
-                mt: 10,
-                mb: 4,
-              }}
-            >
-              Welcome to ProFitness
-            </Typography>
-            <Title variant="h1">
-              Build Your Body Transform Your Life.
-            </Title>
-            <Typography
-              variant="body2"
-              sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
-            >
-             Welcome to our fitness page, where we believe that fitness is not just a hobby, but a way of life. Our page is dedicated to providing you with the latest fitness tips, workout routines, and healthy eating ideas that will help you achieve your fitness goals.
+            <Box sx={{ flex: "1" }}>
+              <Typography
+                variant="body2"
+                sx={{
+                  fontSize: "18px",
+                  color: "#687690",
+                  fontWeight: "500",
+                  mt: 1,
+                  mb: 4,
+                }}
+              >
+                Welcome to ProFitness
+              </Typography>
+              <Title variant="h1">Build Your Body Transform Your Life.</Title>
+              <Typography
+                variant="body2"
+                sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
+              >
+                Welcome to our fitness page, where we believe that fitness is
+                not just a hobby, but a way of life. Our page is dedicated to
+                providing you with the latest fitness tips, workout routines,
+                and healthy eating ideas that will help you achieve your fitness
+                goals.
+              </Typography>
 
-
-            </Typography>
-            <CustomButton
-              backgroundColor="#0F1B4C"
-              color="#fff"
-              buttonText="More About Us"
-              heroBtn={true}
-            />
-          </Box>
-
+              <div>
+                <CustomButton
+                  backgroundColor="#0F1B4C"
+                  color="#fff"
+                  buttonText="More About Us"
+                  heroBtn={true}
+                />
+              </div>
+              <div className="btn">
+                <CustomButton
+                  backgroundColor="#0F1B4C"
+                  color="#fff"
+                  buttonText="Join Membership"
+                  heroBtn={true}
+                />
+              </div>
+            </Box>
+         
           <Box sx={{ flex: "1.25" }}>
             <img
               src={RunningMan}
@@ -72,6 +84,7 @@ const Hero = () => {
               style={{ maxWidth: "100%", marginBottom: "2rem" }}
             />
           </Box>
+
         </CustomBox>
       </Container>
     </Box>

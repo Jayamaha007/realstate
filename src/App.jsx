@@ -1,14 +1,12 @@
 
 import Hero from "./Components/Hero";
-
-import UserData from "./Components/UserData";
+import DataInsertion from "./Components/DateInsertion";
 
 function App() {
   return (
     <>
       <Hero />
-      <UserData/>
-      
+      <DataInsertion/>
     </>
   );
 }
