@@ -10,7 +10,7 @@ import ProgressTracker from "../media/TrackerPageProgreeTracker.png";
 import Grid from '@mui/material/Grid';
 import Navbar from './Navbar';
 
-export default function ActionAreaCard() {
+export default function Tracker() {
   return (
 
     
