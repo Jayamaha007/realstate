@@ -136,7 +136,7 @@ export const Navbar = () => {
 
         <NavbarLinksBox>
           <NavLink variant="body2">Home</NavLink>
-          <NavLink variant="body2">Features</NavLink>
+          <NavLink variant="body2">Profile</NavLink>
           <NavLink variant="body2">Services</NavLink>
           <NavLink variant="body2">Tracker</NavLink>
           <NavLink variant="body2">Contact</NavLink>
