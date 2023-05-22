@@ -8,11 +8,13 @@ import WorkoutStats from "./Components/WorkoutStats";
 import WaterTracker from "./Components/WaterTracker";
 import WeekMplans from "./Components/MPlansFTweek";
 import PlanDetail from "./Components/MealPlanDetails";
+import Login from "./Components/Login";
 
 function App() {
   return (
     <>
       <Hero />
+      <Login/>
       <DataInsertion />
       <Workouts />
       <WaterTracker/>

@@ -1,17 +1,8 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea ,Box  } from '@mui/material';
-import DietPlan from "../media/TrackPageDietPlan.png";
-import WorkoutPlan from "../media/TrackerPageWorkoutPlan.png";
-import ProgressTracker from "../media/TrackerPageProgreeTracker.png";
-import Grid from '@mui/material/Grid';
+import {Box  } from '@mui/material';
 import Navbar from './Navbar';
-import Container from '@mui/material';
 import Paper from "@mui/material/Paper";
-import Water from "../media/water.jpg";
 import BobdyBlast from "../media/BodyweightBlast.jpg"
 import CustomButton from './CustomButton';
 
