@@ -67,14 +67,7 @@ const Hero = () => {
                   heroBtn={true}
                 />
               </div>
-              <div className="btn">
-                <CustomButton
-                  backgroundColor="#0F1B4C"
-                  color="#fff"
-                  buttonText="Join Membership"
-                  heroBtn={true}
-                />
-              </div>
+              
             </Box>
          
           <Box sx={{ flex: "1.25" }}>

@@ -12,7 +12,7 @@ import Avatar from "@mui/material/Avatar";
 import IconButton, { IconButtonProps } from "@mui/material/IconButton";
 import { red } from "@mui/material/colors";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import image from "../media/image1.png";
+import image from "../media/Bench.jpg";
 import CustomButton from "./CustomButton";
 
 const WorkoutsCard = ({title, description, img}) => {

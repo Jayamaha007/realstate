@@ -6,6 +6,8 @@ import WorkoutPlans from "./Components/WorkoutPlan";
 import Exercise from "./Components/ExerciesePage";
 import WorkoutStats from "./Components/WorkoutStats";
 import WaterTracker from "./Components/WaterTracker";
+import WeekMplans from "./Components/MPlansFTweek";
+import PlanDetail from "./Components/MealPlanDetails";
 
 function App() {
   return (
@@ -13,12 +15,12 @@ function App() {
       <Hero />
       <DataInsertion />
       <Workouts />
-      <Tracker/>
-      {/* <Exercise/> */}
-      
-     
-      <WorkoutStats/>
       <WaterTracker/>
+      <Tracker/>
+      <WorkoutStats/>
+      <Exercise/>
+      <WeekMplans/>
+      <PlanDetail/>
     </>
   );
 }

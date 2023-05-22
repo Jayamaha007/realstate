@@ -36,7 +36,15 @@ export default function Tracker() {
               image={WorkoutPlan}
               alt="Diet Plan"
             />
-            <CardContent>
+            <CardContent sx={{
+              backgroundColor:"#00e676",
+              color:"#fff",
+              "&:hover": {
+                backgroundColor:"#fff",
+                color:"#00e676",
+                borderColor: "00e676"
+              },
+              }}>
               <Typography gutterBottom variant="h5" component="div">
                 Workout Tracker
               </Typography>
@@ -48,14 +56,22 @@ export default function Tracker() {
         </Card>
 
         <Card sx={{ minWidth: 345 }}>
-          <CardActionArea>
+        <CardActionArea >
             <CardMedia
               component="img"
               height="240"
               image={DietPlan}
               alt="Diet Plan"
             />
-            <CardContent>
+            <CardContent sx={{
+              backgroundColor:"#00e676",
+              color:"#fff",
+              "&:hover": {
+                backgroundColor:"#fff",
+                color:"#00e676",
+                borderColor: "00e676"
+              },
+              }}>
               <Typography gutterBottom variant="h5" component="div">
                 Diet Tracker
               </Typography>
@@ -67,14 +83,22 @@ export default function Tracker() {
         </Card>
 
         <Card sx={{ minWidth: 345 }}>
-          <CardActionArea>
+        <CardActionArea >
             <CardMedia
               component="img"
               height="240"
               image={ProgressTracker}
               alt="Progress Tracker"
             />
-            <CardContent>
+            <CardContent sx={{
+              backgroundColor:"#00e676",
+              color:"#fff",
+              "&:hover": {
+                backgroundColor:"#fff",
+                color:"#00e676",
+                borderColor: "00e676"
+              },
+              }}>
               <Typography gutterBottom variant="h5" component="div">
                 Progress
               </Typography>
